@@ -5,4 +5,5 @@ def convert_to_24_hour(hour, minute, period):
     else:
         if hour != 12:
             hour += 12
-    return f"{hour:02d}{minute:02d}"
+    return f"{hour:02d}:{minute:02d}"
+
