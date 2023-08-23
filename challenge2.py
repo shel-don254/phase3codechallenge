@@ -6,4 +6,4 @@ def exactly_two_positive(a, b, c):
         positive_count += 1
     if c > 0:
         positive_count += 1
-    return positive_count == 2
+    print (positive_count == 2)
